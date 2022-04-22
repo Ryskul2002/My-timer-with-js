@@ -64,7 +64,7 @@ const setTimer = () => {
     console.log(timer)
 }
 function setVel (){
-    let celebration = new Date('2022-03-08')
+    let celebration = new Date('2022-05-03')
     let now = new Date()
     let difference = Date.parse(celebration) - Date.parse(now)
     second.textContent = `${getZero(Math.floor(difference / 1000) % 60)}`
